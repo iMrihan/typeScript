@@ -23,8 +23,8 @@
 
 // console.log(arrStr);
 
-let arrNum: number[];
+// let arrNum: number[];
 
-arrNum = [1, 2, 3, 4, 5];
+// arrNum = [1, 2, 3, 4, 5];
 
-console.log(arrNum);
+// console.log(arrNum);
