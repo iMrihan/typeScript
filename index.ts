@@ -17,3 +17,8 @@
 // myAnyType = "Kuch bhi chalega";
 
 // console.log(myAnyType);
+
+let arrStr: string[];
+arrStr = ["Hello", "World"];
+
+console.log(arrStr);
