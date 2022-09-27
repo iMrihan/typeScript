@@ -29,6 +29,6 @@
 
 // console.log(arrNum);
 
-let anyType;
-anyType = "Check this out";
-console.log(anyType);
+// let anyType;
+// anyType = "Check this out";
+// console.log(anyType);
