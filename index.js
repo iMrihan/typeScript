@@ -10,6 +10,6 @@
 // let myAnyType: any;
 // myAnyType = "Kuch bhi chalega";
 // console.log(myAnyType);
-var arrStr;
-arrStr = ["Hello", "World"];
-console.log(arrStr);
+// let arrStr: string[];
+// arrStr = ["Hello", "World"];
+// console.log(arrStr);

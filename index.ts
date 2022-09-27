@@ -18,7 +18,7 @@
 
 // console.log(myAnyType);
 
-let arrStr: string[];
-arrStr = ["Hello", "World"];
+// let arrStr: string[];
+// arrStr = ["Hello", "World"];
 
-console.log(arrStr);
+// console.log(arrStr);
