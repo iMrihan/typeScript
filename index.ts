@@ -54,13 +54,33 @@
 
 // TypeScript Interfaces :--->
 
-interface Namepro {
+// interface Namepro {
+//   firstname: string;
+//   lastname: string;
+// }
+
+// let namets = (namepro: Namepro) => {
+//   console.log(namepro.firstname + " " + namepro.lastname);
+// };
+
+// namets({ firstname: "Rihan", lastname: "Khan" });
+
+class Student {
   firstname: string;
   lastname: string;
+  age: number;
+
+  getFirstname() {
+    console.log("My firstname is " + this.firstname);
+  }
+  getLastname() {
+    console.log("My lastname is " + this.lastname);
+  }
 }
 
-let namets = (namepro: Namepro) => {
-  console.log(namepro.firstname + " " + namepro.lastname);
-};
+let student1 = new Student();
+student1.firstname = "Rihan";
+student1.lastname = "Khan";
 
-namets({ firstname: "Rihan", lastname: "Khan" });
+student1.getFirstname();
+student1.getLastname();
