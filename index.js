@@ -7,6 +7,6 @@
 // let myBool: boolean;
 // myBool = true;
 // console.log(myBool);
-var myAnyType;
-myAnyType = "Kuch bhi chalega";
-console.log(myAnyType);
+// let myAnyType: any;
+// myAnyType = "Kuch bhi chalega";
+// console.log(myAnyType);

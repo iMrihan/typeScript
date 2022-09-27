@@ -13,7 +13,7 @@
 
 // console.log(myBool);
 
-let myAnyType: any;
-myAnyType = "Kuch bhi chalega";
+// let myAnyType: any;
+// myAnyType = "Kuch bhi chalega";
 
-console.log(myAnyType);
+// console.log(myAnyType);
