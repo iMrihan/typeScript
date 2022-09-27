@@ -8,7 +8,7 @@
 
 // console.log(myStr);
 
-let myBool: boolean;
-myBool = true;
+// let myBool: boolean;
+// myBool = true;
 
-console.log(myBool);
+// console.log(myBool);
