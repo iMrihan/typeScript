@@ -40,19 +40,19 @@
 //   console.log(namepro.firstname + " " + namepro.lastname);
 // };
 // namets({ firstname: "Rihan", lastname: "Khan" });
-var Student = /** @class */ (function () {
-    function Student() {
-    }
-    Student.prototype.getFirstname = function () {
-        console.log("My firstname is " + this.firstname);
-    };
-    Student.prototype.getLastname = function () {
-        console.log("My lastname is " + this.lastname);
-    };
-    return Student;
-}());
-var student1 = new Student();
-student1.firstname = "Rihan";
-student1.lastname = "Khan";
-student1.getFirstname();
-student1.getLastname();
+// class Student {
+//   firstname: string;
+//   lastname: string;
+//   age: number;
+//   getFirstname() {
+//     console.log("My firstname is " + this.firstname);
+//   }
+//   getLastname() {
+//     console.log("My lastname is " + this.lastname);
+//   }
+// }
+// let student1 = new Student();
+// student1.firstname = "Rihan";
+// student1.lastname = "Khan";
+// student1.getFirstname();
+// student1.getLastname();
