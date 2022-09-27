@@ -28,3 +28,7 @@
 // arrNum = [1, 2, 3, 4, 5];
 
 // console.log(arrNum);
+
+let anyType;
+anyType = "Check this out";
+console.log(anyType);
