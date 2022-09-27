@@ -10,7 +10,7 @@
 // let myAnyType: any;
 // myAnyType = "Kuch bhi chalega";
 // console.log(myAnyType);
-// let arrStr: string[];
+// let arrStr: String[];
 // arrStr = ["Hello", "World"];
 // console.log(arrStr);
 // let arrNum: number[];
@@ -19,3 +19,10 @@
 // let anyType;
 // anyType = "Check this out";
 // console.log(anyType);
+// Type Assertion :------------->
+// Angle-Bracket Type :--------->
+// let fieldAssist;
+// fieldAssist = "Good work space";
+// console.log((<string>fieldAssist).length);
+// As-Syntex : ------------->
+// console.log((fieldAssist as string).length);
