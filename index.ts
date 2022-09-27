@@ -12,3 +12,8 @@
 // myBool = true;
 
 // console.log(myBool);
+
+let myAnyType: any;
+myAnyType = "Kuch bhi chalega";
+
+console.log(myAnyType);
