@@ -65,22 +65,27 @@
 
 // namets({ firstname: "Rihan", lastname: "Khan" });
 
-// class Student {
-//   firstname: string;
-//   lastname: string;
-//   age: number;
+class Student {
+  firstname: string;
+  lastname: string;
+  age: number;
 
-//   getFirstname() {
-//     console.log("My firstname is " + this.firstname);
-//   }
-//   getLastname() {
-//     console.log("My lastname is " + this.lastname);
-//   }
-// }
+  constructor(firstname: string, lastname: string, age: number) {
+    this.firstname = firstname;
+    this.lastname = lastname;
+    this.age = age;
+  }
 
-// let student1 = new Student();
-// student1.firstname = "Rihan";
-// student1.lastname = "Khan";
+  getFirstname() {
+    console.log("My firstname is " + this.firstname);
+  }
+  getLastname() {
+    console.log("My lastname is " + this.lastname);
+  }
+  getAge() {
+    console.log("My Age is " + this.age);
+  }
+}
 
-// student1.getFirstname();
-// student1.getLastname();
+let student1 = new Student("Rihan", "Khan", 24);
+student1.getAge();
