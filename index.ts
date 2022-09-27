@@ -7,3 +7,8 @@
 // myStr = "Welcome to the typeScript learning platform";
 
 // console.log(myStr);
+
+let myBool: boolean;
+myBool = true;
+
+console.log(myBool);
