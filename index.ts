@@ -43,3 +43,13 @@
 // As-Syntex : ------------->
 
 // console.log((fieldAssist as string).length);
+
+// Inline Type Annotation:------>
+
+let namets = (namepro: { firstname: string; lastname: string }) => {
+  console.log(namepro.firstname + " " + namepro.lastname);
+};
+
+namets({ firstname: "Rihan", lastname: "Khan" });
+
+// TypeScript Interfaces :--->
