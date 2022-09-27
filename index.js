@@ -40,22 +40,43 @@
 //   console.log(namepro.firstname + " " + namepro.lastname);
 // };
 // namets({ firstname: "Rihan", lastname: "Khan" });
-var Student = /** @class */ (function () {
-    function Student(firstname, lastname, age) {
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.age = age;
-    }
-    Student.prototype.getFirstname = function () {
-        console.log("My firstname is " + this.firstname);
-    };
-    Student.prototype.getLastname = function () {
-        console.log("My lastname is " + this.lastname);
-    };
-    Student.prototype.getAge = function () {
-        console.log("My Age is " + this.age);
-    };
-    return Student;
-}());
-var student1 = new Student("Rihan", "Khan", 24);
-student1.getAge();
+// class Student {
+//   firstname: string;
+//   lastname: string;
+//   age: number;
+//   constructor(firstname: string, lastname: string, age: number) {
+//     this.firstname = firstname;
+//     this.lastname = lastname;
+//     this.age = age;
+//   }
+//   getFirstname() {
+//     console.log("My firstname is " + this.firstname);
+//   }
+//   getLastname() {
+//     console.log("My lastname is " + this.lastname);
+//   }
+//   getAge() {
+//     console.log("My Age is " + this.age);
+//   }
+// }
+// let student1 = new Student("Rihan", "Khan", 24);
+// student1.getAge();
+// Access Modifier:   ----------->
+// class Student {
+//   constructor(public firstname: string, private lastname: string, protected age: number) {
+//     this.firstname = firstname;
+//     this.lastname = lastname;
+//     this.age = age;
+//   }
+//   getFirstname() {
+//     console.log("My firstname is " + this.firstname);
+//   }
+//   getLastname() {
+//     console.log("My lastname is " + this.lastname);
+//   }
+//   getAge() {
+//     console.log("My Age is " + this.age);
+//   }
+// }
+// let student1 = new Student("Rihan", "Khan", 24);
+// student1.getAge();
